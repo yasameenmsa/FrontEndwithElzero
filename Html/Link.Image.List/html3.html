@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anchor Examples</title>
+</head>
+<body>
+  <!-- 1. Go To External Link -->
+  <p>Visit an external website:</p>
+  <a href="https://google.com" target="_blank">Google</a>
+
+  <!-- 2. Go To Other Page -->
+  <p>Navigate to another page in the same website:</p>
+  <a href="index.html">Go to Page</a>
+
+  <!-- 3. Go To Other Section in the Page -->
+  <p>Scroll to a section within the same page:</p>
+  <a href="#index">Go to Section</a>
+
+  <!-- 4. Download a File -->
+  <p>Download a file:</p>
+  <a href="files/document.pdf" download>Download PDF</a>
+
+  <!-- 5. Send an Email -->
+  <p>Send an email:</p>
+  <a href="mailto:support@example.com">Email Support</a>
+
+  <!-- 6. Trigger a JavaScript Function -->
+  <p>Trigger a JavaScript function:</p>
+  <a href="#" onclick="showAlert()">Click Me</a>
+
+  <!-- 7. Open a Phone Dialer -->
+  <p>Call a phone number:</p>
+  <a href="tel:+1234567890">Call Us</a>
+
+  <!-- 8. Open a Map Location -->
+  <p>View a location on Google Maps:</p>
+  <a href="https://www.google.com/maps?q=New+York">View Location</a>
+
+  <!-- 9. Open a Modal (Example with JavaScript) -->
+  <p>Open a modal:</p>
+  <a href="#" onclick="openModal()">Open Modal</a>
+
+  <!-- Example Section for Internal Link -->
+  <h2 id="index">This is the Section</h2>
+  <p>Welcome to the section you navigated to!</p>
+
+  <!-- Example JavaScript Functions -->
+  <script>
+    function showAlert() {
+      alert("You clicked the link!");
+    }
+
+    function openModal() {
+      alert("Modal opened!");
+    }
+  </script>
+</body>
+</html>
